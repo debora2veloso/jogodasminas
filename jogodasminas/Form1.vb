@@ -1,11 +1,11 @@
 ﻿Public Class Form1
     Dim jogadas(9) As Integer
-    Dim matriz(9) As Integer
+    Dim Matriz(9) As Integer
     Dim quadrados As PictureBox
 End Class
 Sub Imagem(quadro)
     Dim fig As New PictureBox
-    Select Case matriz(quadro)
+    Select Case Matriz(quadro)
         Case 0 : fig.BackgroundImage = My.Resources.f1
         Case 1 : fig.BackgroundImage = My.Resources.f2
         Case 2 : fig.BackgroundImage = My.Resources.f3
