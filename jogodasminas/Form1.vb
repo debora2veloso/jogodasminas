@@ -44,4 +44,4 @@ Sub Inicializa()
 
     Passo = 1
 End Sub
-Private Sub clicar(sender As Object, e As EventArgs) Hand
+Private Sub clicar(sender As Object, e As EventArgs) Handles
